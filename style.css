@@ -1,0 +1,56 @@
+.Audio-Heading{
+    text-align: center;
+}
+nav > ul > li{
+    /* display: inline;
+    text-decoration: none; /* (text-decoration: none;) এটি ব্যাবহার করা হয় টেক্সট এর কোন স্টাইল না দেওয়ার জন্য। */
+    margin-right: 15px; */
+}
+nav > ul > li > a{
+    /* text-decoration: none; */
+}
+footer{
+    margin-top: 30px;
+    text-align: center;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+table{
+    border-collapse: collapse; /* (border-collapse: collapse;) টেবিলে সিংগেল বডার দেওয়ার জন্য। */
+    width: 100%;
+    
+}
+td,th{
+    border: 1px solid black;
+    height: 25px;
+}
+nav > ul{
+    display: flex; /* (display: flex;) এটি ব্যাবহার করা হয় কয়েকটি এলিমেন্ট কে পাশাপাশি বসাতে। */
+}
+nav > ul > li{
+    list-style-type: none;
+    margin-right: 15px;
+    padding: 5px;
+}
+nav > ul > li:hover{  /* (nav > ul > li:hover) এটা ব্যাবহার করা হয় কোন এলিমেন্ট এর উপর মাউস নিয়ে গেলে তার উপর কোন স্টাইল দেওয়ার জন্য। */
+    background-color: gray;
+}
+nav > ul > li > a{
+    text-decoration: none;
+}
+nav > ul > li > ul > li{
+    list-style-type: none;
+    margin-left: 20px;
+}
+nav > ul > li > ul > li > a{
+    text-decoration: none;
+}
+nav li .Dropdown{
+    display: none; /* (display: none;) কোন এলিমেন্ট আছে কিন্তু তাকে ওয়াবসাইটে না দেখানোর জন্য। */
+    position: absolute; /* (position: absolute;) এটি ব্যাবহার করা হয় কোন এলিমেন্ট কে তার জায়গা ধরে না রেখে উপরে নিয়ে আসার জন্য।। যার ফলে সেটি অন্য এলিমেন্ট এর উপরেও থাকতে পারে। */
+}
+nav li:hover .Dropdown{
+    display: block;
+}
